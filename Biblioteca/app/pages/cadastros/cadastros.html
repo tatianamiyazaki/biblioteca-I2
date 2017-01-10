@@ -1,0 +1,23 @@
+<ion-navbar *navbar>
+  <!--criação de botão menu no header -->
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+  <ion-title>Cadastrar</ion-title>
+
+</ion-navbar>
+
+
+<ion-content padding class="cadastros">
+  <!--botão para cadastro de livros-->
+  <button block (click)="CadastrarLivros()">Livros
+    <ion-icon name='book'></ion-icon>
+  </button>
+
+  <!--botão para cadastro de clientes-->
+  <button block (click)="CadastrarClientes()">Clientes
+    <ion-icon name='person-add'></ion-icon>
+  </button>
+
+</ion-content>
